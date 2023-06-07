@@ -1,0 +1,155 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filtersContainer {
+  display: flex;
+  justify-content: center;
+  grid-gap: 30px;
+  gap: 30px;
+  margin: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  grid-gap: 7px;
+  gap: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.selectContinent {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 20px 0 0 20px;
+  background: linear-gradient(to bottom, #62c0fa, #0e6ac7cc);
+  color: white;
+  border-color: #4f9dfc;
+}
+.selectContinent:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  background-color: #0e6ac7;
+  transform: scale(1.2);
+  color: white;
+  transition: transform 0.6s ease-in-out;
+}
+.selects {
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #62c0fa, #0e6ac7cc);
+  color: white;
+  border-color: #4f9dfc;
+}
+.selects:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  background-color: #0e6ac7;
+  transform: scale(1.2);
+  color: white;
+  transition: transform 0.6s ease-in-out;
+}
+.selectActivity {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 0 20px 20px 0;
+  background: linear-gradient(to bottom, #62c0fa, #0e6ac7cc);
+  color: white;
+  border-color: #4f9dfc;
+}
+.selectActivity:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  background-color: #0e6ac7;
+  transform: scale(1.2);
+  color: white;
+  transition: transform 0.6s ease-in-out;
+}
+.nextButton {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 0 20px 20px 0;
+  background: linear-gradient(to bottom, #62c0fa, #0e6ac7cc);
+  color: white;
+  border-color: #4f9dfc;
+}
+.nextButton:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  transform: scale(1.2);
+  color: white;
+  transition: transform 0.6s ease-in-out;
+}
+.pageOne {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 20px 0 0 20px;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  transform: scale(1.1);
+  color: white;
+  border-color: #4f9dfc;
+}
+.prevButton {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 20px 0 0 20px;
+  background: linear-gradient(to bottom, #62c0fa, #0e6ac7cc);
+  color: white;
+  border-color: #4f9dfc;
+}
+.prevButton:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  transform: scale(1.2);
+  color: white;
+  transition: transform 0.6s ease-in-out;
+}
+.pagButton {
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #62c0fa, #0e6ac7cc);
+  color: white;
+  border-color: #4f9dfc;
+}
+.actualPage {
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #62c0fa, #0e6ac7cc);
+  color: white;
+  border-color: #4f9dfc;
+}
+.actualPage:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  transform: scale(1.2);
+  color: white;
+  transition: transform 0.6s ease-in-out;
+}
+.actualPageActive {
+  font-size: 17px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  background-color: #0e6ac7;
+  transform: scale(1.1);
+  color: white;
+}
+.pageEnd {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 0 20px 20px 0;
+  background: linear-gradient(to bottom, #0e6ac7cc, #062c80);
+  transform: scale(1.1);
+  color: white;
+  border-color: #4f9dfc;
+}
+.loading {
+  padding: 150px;
+  width: 100px;
+}

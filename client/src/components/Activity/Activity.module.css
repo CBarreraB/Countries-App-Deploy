@@ -1,0 +1,43 @@
+.card {
+  background: rgba(7, 95, 184, 0.83);
+  background: linear-gradient(
+    0deg,
+    rgba(7, 95, 184, 0.83) 0%,
+    rgba(79, 185, 252, 0.66) 80%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(7, 95, 184, 0.83) 0%,
+    rgba(79, 185, 252, 0.66) 80%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(7, 95, 184, 0.83) 0%,
+    rgba(79, 185, 252, 0.66) 80%
+  );
+  box-shadow: 10px 9px 12px 5px rgb(0 0 0 / 50%);
+  width: 230px;
+  height: 200px;
+  margin: 40px 40px;
+  border-radius: 6px;
+  padding: 10px;
+  align-items: center;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.6s ease-in-out;
+}
+.activity {
+  color: #ffffff;
+  font-weight: bold;
+  transform: skew(-10deg);
+  padding-bottom: 8px;
+}
+.information {
+  text-align: left;
+  color: white;
+  margin: 5%;
+}
+.info {
+  color: #073089;
+}

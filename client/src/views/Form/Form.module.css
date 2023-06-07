@@ -1,0 +1,223 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image {
+  padding-top: 120px;
+  width: 600px;
+  height: 100px;
+  margin: 0 auto;
+  max-width: 120%;
+  height: auto;
+  z-index: 3;
+}
+.activityContainer {
+  width: 700px;
+  height: 600px;
+  margin-top: -40px;
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(7, 95, 184, 0.83);
+  background: linear-gradient(
+    0deg,
+    rgba(7, 95, 184, 0.83) 0%,
+    rgba(79, 185, 252, 0.76) 80%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(7, 95, 184, 0.83) 0%,
+    rgba(79, 185, 252, 0.76) 80%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(7, 95, 184, 0.83) 0%,
+    rgba(79, 185, 252, 0.76) 80%
+  );
+  border-radius: 6px;
+  box-shadow: 10px 9px 12px 5px rgb(0 0 0 / 50%);
+  animation: slide-up 1s ease;
+  height: fit-content;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 35px;
+}
+.diffContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+}
+.durationContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 25px;
+  color: white;
+}
+.seasonContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+}
+.countryContainer {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+}
+.listCountries {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+.selectedCountry {
+  font-size: 20px;
+  align-self: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+.buttons {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.listSelectedCountries {
+  list-style: none;
+}
+.deleteButton {
+  border-radius: 50%;
+  background-color: rgb(255, 65, 65);
+  color: white;
+  border-color: rgb(255, 65, 65);
+}
+.deleteButton:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 0.6s ease-in-out;
+}
+.deleteButton:hover::before {
+  content: "Close";
+  position: absolute;
+  top: -30px; /* ajuste la posición superior */
+  right: 0; /* ajuste la posición derecha según su diseño */
+  background-color: white;
+  color: red;
+  padding: 5px;
+  border-radius: 15px;
+}
+.createButton {
+  height: 35px;
+  width: 80px;
+  background: linear-gradient(to bottom, #62c0fa, #00329d);
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  margin: -5px;
+  padding: 0;
+  stroke: black;
+  outline: none;
+}
+.createButton:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #002e4a, #6d9bff);
+  filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));
+  transform: scale(1.2);
+  transition: transform 0.6s ease-in-out;
+}
+.createButton:active {
+  filter: none;
+  background: linear-gradient(to bottom, #4a1700, #c70404);
+  transform: scale(0.95);
+}
+.clearButton {
+  height: 35px;
+  width: 80px;
+  background: linear-gradient(to bottom, #62c0fa, #00329d);
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  margin: -5px;
+  padding: 0;
+  stroke: black;
+  outline: none;
+}
+.clearButton:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #002e4a, #6d9bff);
+  filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));
+  transform: scale(1.2);
+  transition: transform 0.6s ease-in-out;
+}
+.clearButton:active {
+  filter: none;
+  background: linear-gradient(to bottom, #4a1700, #c70404);
+  transform: scale(0.95);
+}
+.selects {
+  height: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-color: #4fb9fc;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75) inset;
+}
+.inputName {
+  height: 25px;
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+  border-color: #4fb9fc;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75) inset;
+}
+.inputName::placeholder {
+  text-align: center;
+}
+.selectCountry {
+  height: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-color: #4fb9fc;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75) inset;
+}
+.warning {
+  color: #062c80;
+  font-size: 18px;
+  font-weight: bold;
+  transform: skew(-10deg);
+}
+.spans {
+  color: rgb(255, 0, 0);
+  font-size: 18px;
+}
+.errors {
+  border-color: red;
+}
+.author {
+  padding-top: 20px;
+  color: #062c80;
+}

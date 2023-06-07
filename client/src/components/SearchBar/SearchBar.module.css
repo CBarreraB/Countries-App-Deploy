@@ -1,0 +1,20 @@
+.searchBox {
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.searchInput {
+  height: 35px;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 10px 10px 13px -5px rgba(0, 0, 0, 0.75) inset;
+  padding: 15px;
+  background-color: white;
+  border-color: #4fb9fc;
+  font-size: 20px;
+}
+.search {
+  padding-left: -125px;
+  max-width: 35px;
+  max-height: 35px;
+}
